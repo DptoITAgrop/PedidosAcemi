@@ -1,27 +1,42 @@
-# 1️⃣ Build stage
+# Etapa 1: build de la app con pnpm
 FROM node:20-alpine AS builder
+
+# Crear carpeta de trabajo
 WORKDIR /app
 
-# Instalar pnpm
+# Instalamos pnpm globalmente
 RUN npm install -g pnpm
 
+# Copiamos solo lo necesario para instalar deps
 COPY package.json pnpm-lock.yaml ./
+
+# Instalamos dependencias (todas) usando el lockfile
 RUN pnpm install --frozen-lockfile
 
+# Copiamos el resto del código
 COPY . .
+
+# Build de Next.js en producción
 RUN pnpm build
 
-# 2️⃣ Runtime stage (más ligero)
+# Etapa 2: imagen final ligera para ejecutar la app
 FROM node:20-alpine AS runner
+
 WORKDIR /app
+
+# Instalamos pnpm también aquí
+RUN npm install -g pnpm
 
 ENV NODE_ENV=production
 
-COPY --from=builder /app/package.json ./
+# Copiamos lo necesario desde la etapa de build
+COPY --from=builder /app/package.json /app/pnpm-lock.yaml ./
 COPY --from=builder /app/.next ./.next
 COPY --from=builder /app/public ./public
 COPY --from=builder /app/node_modules ./node_modules
 
+# Exponemos el puerto interno donde escucha Next
 EXPOSE 3000
 
+# Arrancamos Next en modo producción
 CMD ["pnpm", "start"]
