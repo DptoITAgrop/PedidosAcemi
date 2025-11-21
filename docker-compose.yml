@@ -1,0 +1,23 @@
+version: "3.9"
+
+services:
+  orders-app:
+    container_name: orders-app
+    build:
+      context: .          # Directorio donde está tu Dockerfile
+      dockerfile: Dockerfile
+    restart: always
+    env_file:
+      - .env              # Opcional: fichero .env en tu proyecto
+    environment:
+      # Puedes definirlas aquí o en el .env
+      NODE_ENV: production
+      PORT: 3000
+    ports:
+      - "8183:3000"       # host:container
+    networks:
+      - orders-network
+
+networks:
+  orders-network:
+    driver: bridge

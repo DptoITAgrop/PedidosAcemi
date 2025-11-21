@@ -1,0 +1,24 @@
+# Imagen base de Node (ajusta la versión si quieres)
+FROM node:20-alpine
+
+# Carpeta de trabajo dentro del contenedor
+WORKDIR /usr/src/app
+
+# Copiamos sólo los manifests para instalar dependencias primero
+COPY package*.json ./
+
+# Instalamos dependencias (producción)
+RUN npm ci --only=production
+
+# Copiamos el resto del código
+COPY . .
+
+# Variables de entorno por defecto (puedes sobreescribirlas con docker-compose)
+ENV NODE_ENV=production
+ENV PORT=3000
+
+# Exponemos el puerto donde escucha la app
+EXPOSE 3000
+
+# Comando de arranque (ajusta si usas otra cosa: "node server.js", "npm run start:prod", etc.)
+CMD ["npm", "start"]

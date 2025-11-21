@@ -1,0 +1,26 @@
+globalThis.__BUILD_MANIFEST = {
+  "pages": {
+    "/_app": []
+  },
+  "devFiles": [],
+  "polyfillFiles": [
+    "static/chunks/89236_next_dist_build_polyfills_polyfill-nomodule.js"
+  ],
+  "lowPriorityFiles": [],
+  "rootMainFiles": [
+    "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_4a599200._.js",
+    "static/chunks/89236_next_dist_compiled_react-dom_136a042e._.js",
+    "static/chunks/89236_next_dist_compiled_react-server-dom-turbopack_5dade535._.js",
+    "static/chunks/89236_next_dist_compiled_next-devtools_index_187655b8.js",
+    "static/chunks/89236_next_dist_compiled_36fb2ca7._.js",
+    "static/chunks/89236_next_dist_client_2bd043b2._.js",
+    "static/chunks/89236_next_dist_1059e870._.js",
+    "static/chunks/114d0_@swc_helpers_cjs_69047522._.js",
+    "static/chunks/Downloads_pistachio-order-app (1)_a0ff3932._.js",
+    "static/chunks/turbopack-Downloads_pistachio-order-app (1)_3d440428._.js"
+  ]
+};
+globalThis.__BUILD_MANIFEST.lowPriorityFiles = [
+"/static/" + process.env.__NEXT_BUILD_ID + "/_buildManifest.js",
+"/static/" + process.env.__NEXT_BUILD_ID + "/_ssgManifest.js"
+];

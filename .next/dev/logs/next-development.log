@@ -1,0 +1,763 @@
+[00:00:00.900] Server  LOG      ✓ Ready in 581ms
+[00:00:15.910] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:16.097] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:16.097] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:16.097] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763720314293}
+[00:00:16.097] Browser WARN    Image with src "http://localhost:3000/acemispain-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:20.068] Browser DEBUG   #1 0ms Starting document clone with size 1699x834 scrolled to 0,-0.6666666865348816
+[00:01:20.068] Browser ERROR   Error generando PDF: {}
+[00:06:22.561] Server  LOG      ✓ Compiled in 69ms
+[00:07:29.419] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:29.595] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:07:29.595] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:07:29.595] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763720747807}
+[00:07:29.595] Browser WARN    Image with src "http://localhost:3000/acemispain-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:19:52.679] Server  LOG      ✓ Compiled in 60ms
+[01:20:17.975] Browser DEBUG   #1 0ms Starting document clone with size 1699x834 scrolled to 0,-192.6666717529297
+[01:20:17.975] Browser ERROR   Error generando PDF, usando impresión como alternativa: {}
+[01:20:31.014] Browser DEBUG   #2 0ms Starting document clone with size 1699x834 scrolled to 0,-192.6666717529297
+[01:20:31.014] Browser ERROR   Error generando PDF, usando impresión como alternativa: {}
+[01:23:39.921] Server  LOG      ✓ Compiled in 54ms
+[01:23:42.887] Browser DEBUG   #3 0ms Starting document clone with size 1699x834 scrolled to 0,-192.6666717529297
+[01:23:42.887] Browser ERROR   Error generando PDF, usando impresión como alternativa: {}
+[01:24:38.023] Browser DEBUG   #4 0ms Starting document clone with size 1699x834 scrolled to 0,-192.6666717529297
+[01:24:38.024] Browser ERROR   Error generando PDF, usando impresión como alternativa: {}
+[01:30:43.992] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:30:44.177] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:30:44.177] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:30:44.177] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763725742382}
+[01:30:44.177] Browser WARN    Image with src "http://localhost:3000/acemispain-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:31:10.029] Browser DEBUG   #1 1ms Starting document clone with size 1699x834 scrolled to 0,-192.6666717529297
+[01:31:10.029] Browser ERROR   Error generando PDF, usando impresión como alternativa: {}
+[01:34:24.828] Server  ERROR    ⨯ ./Downloads/pistachio-order-app (1)/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/order-summary-pdf'
+   6 | import { DistributionForm } from "@/components/distribution-form"
+   7 | import { OrderSummary } from "@/components/order-summary"
+>  8 | import { OrderSummaryPDF } from "@/components/order-summary-pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { Button } from "@/components/ui/button"
+  10 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+  11 | import { Printer, Download, LogOut } from "lucide-react"
+
+Import map: aliased to relative './components/order-summary-pdf' inside of [project]/Downloads/pistachio-order-app (1)
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Client Component Browser]
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Client Component SSR]
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:34:24.832] Server  ERROR    ⨯ ./Downloads/pistachio-order-app (1)/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/order-summary-pdf'
+   6 | import { DistributionForm } from "@/components/distribution-form"
+   7 | import { OrderSummary } from "@/components/order-summary"
+>  8 | import { OrderSummaryPDF } from "@/components/order-summary-pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { Button } from "@/components/ui/button"
+  10 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+  11 | import { Printer, Download, LogOut } from "lucide-react"
+
+Import map: aliased to relative './components/order-summary-pdf' inside of [project]/Downloads/pistachio-order-app (1)
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Client Component Browser]
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Client Component SSR]
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:34:24.835] Server  ERROR    ⨯ ./Downloads/pistachio-order-app (1)/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/order-summary-pdf'
+   6 | import { DistributionForm } from "@/components/distribution-form"
+   7 | import { OrderSummary } from "@/components/order-summary"
+>  8 | import { OrderSummaryPDF } from "@/components/order-summary-pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { Button } from "@/components/ui/button"
+  10 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+  11 | import { Printer, Download, LogOut } from "lucide-react"
+
+Import map: aliased to relative './components/order-summary-pdf' inside of [project]/Downloads/pistachio-order-app (1)
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Client Component Browser]
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Client Component SSR]
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:34:24.838] Server  ERROR    ⨯ ./Downloads/pistachio-order-app (1)/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/order-summary-pdf'
+   6 | import { DistributionForm } from "@/components/distribution-form"
+   7 | import { OrderSummary } from "@/components/order-summary"
+>  8 | import { OrderSummaryPDF } from "@/components/order-summary-pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { Button } from "@/components/ui/button"
+  10 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+  11 | import { Printer, Download, LogOut } from "lucide-react"
+
+Import map: aliased to relative './components/order-summary-pdf' inside of [project]/Downloads/pistachio-order-app (1)
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Client Component Browser]
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Client Component SSR]
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:34:24.841] Server  ERROR    ⨯ ./Downloads/pistachio-order-app (1)/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/order-summary-pdf'
+   6 | import { DistributionForm } from "@/components/distribution-form"
+   7 | import { OrderSummary } from "@/components/order-summary"
+>  8 | import { OrderSummaryPDF } from "@/components/order-summary-pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { Button } from "@/components/ui/button"
+  10 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+  11 | import { Printer, Download, LogOut } from "lucide-react"
+
+Import map: aliased to relative './components/order-summary-pdf' inside of [project]/Downloads/pistachio-order-app (1)
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Client Component Browser]
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Client Component SSR]
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:34:24.843] Server  ERROR    ⨯ ./Downloads/pistachio-order-app (1)/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/order-summary-pdf'
+   6 | import { DistributionForm } from "@/components/distribution-form"
+   7 | import { OrderSummary } from "@/components/order-summary"
+>  8 | import { OrderSummaryPDF } from "@/components/order-summary-pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { Button } from "@/components/ui/button"
+  10 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+  11 | import { Printer, Download, LogOut } from "lucide-react"
+
+Import map: aliased to relative './components/order-summary-pdf' inside of [project]/Downloads/pistachio-order-app (1)
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Client Component Browser]
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Client Component SSR]
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:34:24.846] Server  ERROR    ⨯ ./Downloads/pistachio-order-app (1)/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/order-summary-pdf'
+   6 | import { DistributionForm } from "@/components/distribution-form"
+   7 | import { OrderSummary } from "@/components/order-summary"
+>  8 | import { OrderSummaryPDF } from "@/components/order-summary-pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { Button } from "@/components/ui/button"
+  10 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+  11 | import { Printer, Download, LogOut } from "lucide-react"
+
+Import map: aliased to relative './components/order-summary-pdf' inside of [project]/Downloads/pistachio-order-app (1)
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Client Component Browser]
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Client Component SSR]
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:34:24.848] Server  ERROR    ⨯ ./Downloads/pistachio-order-app (1)/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/order-summary-pdf'
+   6 | import { DistributionForm } from "@/components/distribution-form"
+   7 | import { OrderSummary } from "@/components/order-summary"
+>  8 | import { OrderSummaryPDF } from "@/components/order-summary-pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { Button } from "@/components/ui/button"
+  10 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+  11 | import { Printer, Download, LogOut } from "lucide-react"
+
+Import map: aliased to relative './components/order-summary-pdf' inside of [project]/Downloads/pistachio-order-app (1)
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Client Component Browser]
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Client Component SSR]
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:34:24.850] Server  ERROR    ⨯ ./Downloads/pistachio-order-app (1)/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/order-summary-pdf'
+   6 | import { DistributionForm } from "@/components/distribution-form"
+   7 | import { OrderSummary } from "@/components/order-summary"
+>  8 | import { OrderSummaryPDF } from "@/components/order-summary-pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { Button } from "@/components/ui/button"
+  10 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+  11 | import { Printer, Download, LogOut } from "lucide-react"
+
+Import map: aliased to relative './components/order-summary-pdf' inside of [project]/Downloads/pistachio-order-app (1)
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Client Component Browser]
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Client Component SSR]
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:34:24.852] Server  ERROR    ⨯ ./Downloads/pistachio-order-app (1)/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/order-summary-pdf'
+   6 | import { DistributionForm } from "@/components/distribution-form"
+   7 | import { OrderSummary } from "@/components/order-summary"
+>  8 | import { OrderSummaryPDF } from "@/components/order-summary-pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { Button } from "@/components/ui/button"
+  10 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+  11 | import { Printer, Download, LogOut } from "lucide-react"
+
+Import map: aliased to relative './components/order-summary-pdf' inside of [project]/Downloads/pistachio-order-app (1)
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Client Component Browser]
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Client Component SSR]
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:34:24.855] Server  ERROR    ⨯ ./Downloads/pistachio-order-app (1)/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/order-summary-pdf'
+   6 | import { DistributionForm } from "@/components/distribution-form"
+   7 | import { OrderSummary } from "@/components/order-summary"
+>  8 | import { OrderSummaryPDF } from "@/components/order-summary-pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { Button } from "@/components/ui/button"
+  10 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+  11 | import { Printer, Download, LogOut } from "lucide-react"
+
+Import map: aliased to relative './components/order-summary-pdf' inside of [project]/Downloads/pistachio-order-app (1)
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Client Component Browser]
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Client Component SSR]
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:34:24.857] Server  ERROR    ⨯ ./Downloads/pistachio-order-app (1)/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/order-summary-pdf'
+   6 | import { DistributionForm } from "@/components/distribution-form"
+   7 | import { OrderSummary } from "@/components/order-summary"
+>  8 | import { OrderSummaryPDF } from "@/components/order-summary-pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { Button } from "@/components/ui/button"
+  10 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+  11 | import { Printer, Download, LogOut } from "lucide-react"
+
+Import map: aliased to relative './components/order-summary-pdf' inside of [project]/Downloads/pistachio-order-app (1)
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Client Component Browser]
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Client Component SSR]
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:34:24.860] Server  ERROR    ⨯ ./Downloads/pistachio-order-app (1)/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/order-summary-pdf'
+   6 | import { DistributionForm } from "@/components/distribution-form"
+   7 | import { OrderSummary } from "@/components/order-summary"
+>  8 | import { OrderSummaryPDF } from "@/components/order-summary-pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { Button } from "@/components/ui/button"
+  10 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+  11 | import { Printer, Download, LogOut } from "lucide-react"
+
+Import map: aliased to relative './components/order-summary-pdf' inside of [project]/Downloads/pistachio-order-app (1)
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Client Component Browser]
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Client Component SSR]
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:34:24.862] Server  ERROR    ⨯ ./Downloads/pistachio-order-app (1)/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/order-summary-pdf'
+   6 | import { DistributionForm } from "@/components/distribution-form"
+   7 | import { OrderSummary } from "@/components/order-summary"
+>  8 | import { OrderSummaryPDF } from "@/components/order-summary-pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { Button } from "@/components/ui/button"
+  10 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+  11 | import { Printer, Download, LogOut } from "lucide-react"
+
+Import map: aliased to relative './components/order-summary-pdf' inside of [project]/Downloads/pistachio-order-app (1)
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Client Component Browser]
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Client Component SSR]
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:34:24.863] Server  ERROR    ⨯ ./Downloads/pistachio-order-app (1)/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/order-summary-pdf'
+   6 | import { DistributionForm } from "@/components/distribution-form"
+   7 | import { OrderSummary } from "@/components/order-summary"
+>  8 | import { OrderSummaryPDF } from "@/components/order-summary-pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { Button } from "@/components/ui/button"
+  10 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+  11 | import { Printer, Download, LogOut } from "lucide-react"
+
+Import map: aliased to relative './components/order-summary-pdf' inside of [project]/Downloads/pistachio-order-app (1)
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Client Component Browser]
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Client Component SSR]
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:34:24.865] Server  ERROR    ⨯ ./Downloads/pistachio-order-app (1)/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/order-summary-pdf'
+   6 | import { DistributionForm } from "@/components/distribution-form"
+   7 | import { OrderSummary } from "@/components/order-summary"
+>  8 | import { OrderSummaryPDF } from "@/components/order-summary-pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { Button } from "@/components/ui/button"
+  10 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+  11 | import { Printer, Download, LogOut } from "lucide-react"
+
+Import map: aliased to relative './components/order-summary-pdf' inside of [project]/Downloads/pistachio-order-app (1)
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Client Component Browser]
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Client Component SSR]
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:34:24.868] Server  ERROR    ⨯ ./Downloads/pistachio-order-app (1)/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/order-summary-pdf'
+   6 | import { DistributionForm } from "@/components/distribution-form"
+   7 | import { OrderSummary } from "@/components/order-summary"
+>  8 | import { OrderSummaryPDF } from "@/components/order-summary-pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { Button } from "@/components/ui/button"
+  10 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+  11 | import { Printer, Download, LogOut } from "lucide-react"
+
+Import map: aliased to relative './components/order-summary-pdf' inside of [project]/Downloads/pistachio-order-app (1)
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Client Component Browser]
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Client Component SSR]
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:34:24.869] Server  ERROR    ⨯ ./Downloads/pistachio-order-app (1)/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/order-summary-pdf'
+   6 | import { DistributionForm } from "@/components/distribution-form"
+   7 | import { OrderSummary } from "@/components/order-summary"
+>  8 | import { OrderSummaryPDF } from "@/components/order-summary-pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { Button } from "@/components/ui/button"
+  10 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+  11 | import { Printer, Download, LogOut } from "lucide-react"
+
+Import map: aliased to relative './components/order-summary-pdf' inside of [project]/Downloads/pistachio-order-app (1)
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Client Component Browser]
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Client Component SSR]
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:34:24.870] Server  ERROR    ⨯ ./Downloads/pistachio-order-app (1)/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/order-summary-pdf'
+   6 | import { DistributionForm } from "@/components/distribution-form"
+   7 | import { OrderSummary } from "@/components/order-summary"
+>  8 | import { OrderSummaryPDF } from "@/components/order-summary-pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { Button } from "@/components/ui/button"
+  10 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+  11 | import { Printer, Download, LogOut } from "lucide-react"
+
+Import map: aliased to relative './components/order-summary-pdf' inside of [project]/Downloads/pistachio-order-app (1)
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Client Component Browser]
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Client Component SSR]
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:34:24.872] Server  ERROR    ⨯ ./Downloads/pistachio-order-app (1)/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/order-summary-pdf'
+   6 | import { DistributionForm } from "@/components/distribution-form"
+   7 | import { OrderSummary } from "@/components/order-summary"
+>  8 | import { OrderSummaryPDF } from "@/components/order-summary-pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { Button } from "@/components/ui/button"
+  10 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+  11 | import { Printer, Download, LogOut } from "lucide-react"
+
+Import map: aliased to relative './components/order-summary-pdf' inside of [project]/Downloads/pistachio-order-app (1)
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Client Component Browser]
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Client Component SSR]
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:34:24.874] Server  ERROR    ⨯ ./Downloads/pistachio-order-app (1)/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/order-summary-pdf'
+   6 | import { DistributionForm } from "@/components/distribution-form"
+   7 | import { OrderSummary } from "@/components/order-summary"
+>  8 | import { OrderSummaryPDF } from "@/components/order-summary-pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { Button } from "@/components/ui/button"
+  10 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+  11 | import { Printer, Download, LogOut } from "lucide-react"
+
+Import map: aliased to relative './components/order-summary-pdf' inside of [project]/Downloads/pistachio-order-app (1)
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Client Component Browser]
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Client Component SSR]
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:34:24.876] Server  ERROR    ⨯ ./Downloads/pistachio-order-app (1)/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/order-summary-pdf'
+   6 | import { DistributionForm } from "@/components/distribution-form"
+   7 | import { OrderSummary } from "@/components/order-summary"
+>  8 | import { OrderSummaryPDF } from "@/components/order-summary-pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { Button } from "@/components/ui/button"
+  10 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+  11 | import { Printer, Download, LogOut } from "lucide-react"
+
+Import map: aliased to relative './components/order-summary-pdf' inside of [project]/Downloads/pistachio-order-app (1)
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Client Component Browser]
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Client Component SSR]
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:34:24.878] Server  ERROR    ⨯ ./Downloads/pistachio-order-app (1)/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/order-summary-pdf'
+   6 | import { DistributionForm } from "@/components/distribution-form"
+   7 | import { OrderSummary } from "@/components/order-summary"
+>  8 | import { OrderSummaryPDF } from "@/components/order-summary-pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { Button } from "@/components/ui/button"
+  10 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+  11 | import { Printer, Download, LogOut } from "lucide-react"
+
+Import map: aliased to relative './components/order-summary-pdf' inside of [project]/Downloads/pistachio-order-app (1)
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Client Component Browser]
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Client Component SSR]
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:34:24.880] Server  ERROR    ⨯ ./Downloads/pistachio-order-app (1)/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/order-summary-pdf'
+   6 | import { DistributionForm } from "@/components/distribution-form"
+   7 | import { OrderSummary } from "@/components/order-summary"
+>  8 | import { OrderSummaryPDF } from "@/components/order-summary-pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { Button } from "@/components/ui/button"
+  10 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+  11 | import { Printer, Download, LogOut } from "lucide-react"
+
+Import map: aliased to relative './components/order-summary-pdf' inside of [project]/Downloads/pistachio-order-app (1)
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Client Component Browser]
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Client Component SSR]
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:34:24.882] Server  ERROR    ⨯ ./Downloads/pistachio-order-app (1)/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/order-summary-pdf'
+   6 | import { DistributionForm } from "@/components/distribution-form"
+   7 | import { OrderSummary } from "@/components/order-summary"
+>  8 | import { OrderSummaryPDF } from "@/components/order-summary-pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { Button } from "@/components/ui/button"
+  10 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+  11 | import { Printer, Download, LogOut } from "lucide-react"
+
+Import map: aliased to relative './components/order-summary-pdf' inside of [project]/Downloads/pistachio-order-app (1)
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Client Component Browser]
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Client Component SSR]
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:34:24.884] Server  ERROR    ⨯ ./Downloads/pistachio-order-app (1)/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/order-summary-pdf'
+   6 | import { DistributionForm } from "@/components/distribution-form"
+   7 | import { OrderSummary } from "@/components/order-summary"
+>  8 | import { OrderSummaryPDF } from "@/components/order-summary-pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { Button } from "@/components/ui/button"
+  10 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+  11 | import { Printer, Download, LogOut } from "lucide-react"
+
+Import map: aliased to relative './components/order-summary-pdf' inside of [project]/Downloads/pistachio-order-app (1)
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Client Component Browser]
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Client Component SSR]
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:34:24.886] Server  ERROR    ⨯ ./Downloads/pistachio-order-app (1)/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/order-summary-pdf'
+   6 | import { DistributionForm } from "@/components/distribution-form"
+   7 | import { OrderSummary } from "@/components/order-summary"
+>  8 | import { OrderSummaryPDF } from "@/components/order-summary-pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { Button } from "@/components/ui/button"
+  10 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+  11 | import { Printer, Download, LogOut } from "lucide-react"
+
+Import map: aliased to relative './components/order-summary-pdf' inside of [project]/Downloads/pistachio-order-app (1)
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Client Component Browser]
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Client Component SSR]
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:34:24.888] Server  ERROR    ⨯ ./Downloads/pistachio-order-app (1)/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/order-summary-pdf'
+   6 | import { DistributionForm } from "@/components/distribution-form"
+   7 | import { OrderSummary } from "@/components/order-summary"
+>  8 | import { OrderSummaryPDF } from "@/components/order-summary-pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { Button } from "@/components/ui/button"
+  10 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+  11 | import { Printer, Download, LogOut } from "lucide-react"
+
+Import map: aliased to relative './components/order-summary-pdf' inside of [project]/Downloads/pistachio-order-app (1)
+
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Client Component Browser]
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Client Component SSR]
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:34:24.890] Server  LOG      ✓ Compiled in 77ms
+[01:34:25.814] Browser ERROR   ./Downloads/pistachio-order-app (1)/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/order-summary-pdf'
+   6 | import { DistributionForm } from "@/components/distribution-form"
+   7 | import { OrderSummary } from "@/components/order-summary"
+>  8 | import { OrderSummaryPDF } from "@/components/order-summary-pdf"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { Button } from "@/components/ui/button"
+  10 | import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+  11 | import { Printer, Download, LogOut } from "lucide-react"
+
+Import map: aliased to relative './components/order-summary-pdf' inside of [project]/Downloads/pistachio-order-app (1)
+
+Import traces:
+  Client Component Browser:
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Client Component Browser]
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Client Component SSR]
+    ./Downloads/pistachio-order-app (1)/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:34:38.810] Browser ERROR   uncaughtError: ReferenceError: OrderSummaryPDF is not defined
+[01:34:44.701] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:34:44.815] Server  LOG      ✓ Compiled in 73ms
+[01:34:44.931] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:34:45.089] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:34:45.090] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:34:45.090] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763725983295}
+[01:34:45.090] Browser WARN    Image with src "http://localhost:3000/acemispain-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:37:11.081] Server  LOG      ✓ Compiled in 57ms
