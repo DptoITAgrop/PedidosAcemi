@@ -1,23 +1,14 @@
 version: "3.9"
 
 services:
-  orders-app:
-    container_name: orders-app
+  app:
     build:
-      context: .          # Directorio donde está tu Dockerfile
+      context: .
       dockerfile: DockerFile
-    restart: always
-    env_file:
-      - .env              # Opcional: fichero .env en tu proyecto
-    environment:
-      # Puedes definirlas aquí o en el .env
-      NODE_ENV: production
-      PORT: 3000
+    container_name: pedidosacemi
+    restart: unless-stopped
     ports:
-      - "8183:3000"       # host:container
-    networks:
-      - orders-network
-
-networks:
-  orders-network:
-    driver: bridge
+      - "8183:3000"
+    environment:
+      NODE_ENV: production
+      NEXT_PUBLIC_APP_URL: https://orders.acemispain.com
