@@ -5,7 +5,7 @@ services:
     container_name: orders-app
     build:
       context: .          # Directorio donde está tu Dockerfile
-      dockerfile: Dockerfile
+      dockerfile: DockerFile
     restart: always
     env_file:
       - .env              # Opcional: fichero .env en tu proyecto
