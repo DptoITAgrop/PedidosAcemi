@@ -1,24 +1,27 @@
-# Imagen base de Node (ajusta la versión si quieres)
-FROM node:20-alpine
+# 1️⃣ Build stage
+FROM node:20-alpine AS builder
+WORKDIR /app
 
-# Carpeta de trabajo dentro del contenedor
-WORKDIR /usr/src/app
+# Instalar pnpm
+RUN npm install -g pnpm
 
-# Copiamos sólo los manifests para instalar dependencias primero
-COPY package*.json ./
+COPY package.json pnpm-lock.yaml ./
+RUN pnpm install --frozen-lockfile
 
-# Instalamos dependencias (producción)
-RUN npm ci --only=production
-
-# Copiamos el resto del código
 COPY . .
+RUN pnpm build
 
-# Variables de entorno por defecto (puedes sobreescribirlas con docker-compose)
+# 2️⃣ Runtime stage (más ligero)
+FROM node:20-alpine AS runner
+WORKDIR /app
+
 ENV NODE_ENV=production
-ENV PORT=3000
 
-# Exponemos el puerto donde escucha la app
+COPY --from=builder /app/package.json ./
+COPY --from=builder /app/.next ./.next
+COPY --from=builder /app/public ./public
+COPY --from=builder /app/node_modules ./node_modules
+
 EXPOSE 3000
 
-# Comando de arranque (ajusta si usas otra cosa: "node server.js", "npm run start:prod", etc.)
-CMD ["npm", "start"]
+CMD ["pnpm", "start"]
